@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B53022E0BADC37EA2AB9686 /* Pods_Overly_D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0441DB75B7C1F69D0BF36B5F /* Pods_Overly_D.framework */; };
+		78379E721FE8EB7800397B97 /* OverlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78379E711FE8EB7800397B97 /* OverlayController.swift */; };
+		78379E751FE8EBE100397B97 /* SnailBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78379E731FE8EBE100397B97 /* SnailBannerView.swift */; };
+		78379E761FE8EBE100397B97 /* SnailSampleViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78379E741FE8EBE100397B97 /* SnailSampleViews.swift */; };
+		78379E7B1FE8EC0900397B97 /* UIView_Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78379E771FE8EC0800397B97 /* UIView_Layout.swift */; };
+		78379E7C1FE8EC0900397B97 /* UIScreen_Extend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78379E781FE8EC0800397B97 /* UIScreen_Extend.swift */; };
+		78379E7D1FE8EC0900397B97 /* CALayer_Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78379E791FE8EC0800397B97 /* CALayer_Layout.swift */; };
+		78379E7E1FE8EC0900397B97 /* UIColor_Extend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78379E7A1FE8EC0900397B97 /* UIColor_Extend.swift */; };
+		78379E801FE8ED1C00397B97 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78379E7F1FE8ED1C00397B97 /* AViewController.swift */; };
+		78379E841FE8F30D00397B97 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78379E831FE8F30D00397B97 /* BViewController.swift */; };
 		78EB38ED1FE8BDA10064173F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EB38EC1FE8BDA10064173F /* AppDelegate.swift */; };
 		78EB38EF1FE8BDA10064173F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EB38EE1FE8BDA10064173F /* ViewController.swift */; };
 		78EB38F21FE8BDA10064173F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78EB38F01FE8BDA10064173F /* Main.storyboard */; };
@@ -15,6 +25,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0441DB75B7C1F69D0BF36B5F /* Pods_Overly_D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Overly_D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C33D3AAA57413064E1EE2A /* Pods-Overly_D.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Overly_D.release.xcconfig"; path = "Pods/Target Support Files/Pods-Overly_D/Pods-Overly_D.release.xcconfig"; sourceTree = "<group>"; };
+		499A74A4C489E5B0401DC876 /* Pods-Overly_D.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Overly_D.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Overly_D/Pods-Overly_D.debug.xcconfig"; sourceTree = "<group>"; };
+		78379E711FE8EB7800397B97 /* OverlayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayController.swift; sourceTree = "<group>"; };
+		78379E731FE8EBE100397B97 /* SnailBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnailBannerView.swift; sourceTree = "<group>"; };
+		78379E741FE8EBE100397B97 /* SnailSampleViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnailSampleViews.swift; sourceTree = "<group>"; };
+		78379E771FE8EC0800397B97 /* UIView_Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView_Layout.swift; sourceTree = "<group>"; };
+		78379E781FE8EC0800397B97 /* UIScreen_Extend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScreen_Extend.swift; sourceTree = "<group>"; };
+		78379E791FE8EC0800397B97 /* CALayer_Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayer_Layout.swift; sourceTree = "<group>"; };
+		78379E7A1FE8EC0900397B97 /* UIColor_Extend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_Extend.swift; sourceTree = "<group>"; };
+		78379E7F1FE8ED1C00397B97 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
+		78379E831FE8F30D00397B97 /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 		78EB38E91FE8BDA00064173F /* Overly_D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Overly_D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78EB38EC1FE8BDA10064173F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78EB38EE1FE8BDA10064173F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +51,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B53022E0BADC37EA2AB9686 /* Pods_Overly_D.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10BA90C6D85EBB5BEC47A7C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				499A74A4C489E5B0401DC876 /* Pods-Overly_D.debug.xcconfig */,
+				39C33D3AAA57413064E1EE2A /* Pods-Overly_D.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		27FA672B65E5AD34B1E7A9AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0441DB75B7C1F69D0BF36B5F /* Pods_Overly_D.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78379E811FE8F23600397B97 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				78379E821FE8F26800397B97 /* Overlay */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		78379E821FE8F26800397B97 /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				78379E711FE8EB7800397B97 /* OverlayController.swift */,
+				78379E731FE8EBE100397B97 /* SnailBannerView.swift */,
+				78379E741FE8EBE100397B97 /* SnailSampleViews.swift */,
+				78379E791FE8EC0800397B97 /* CALayer_Layout.swift */,
+				78379E7A1FE8EC0900397B97 /* UIColor_Extend.swift */,
+				78379E781FE8EC0800397B97 /* UIScreen_Extend.swift */,
+				78379E771FE8EC0800397B97 /* UIView_Layout.swift */,
+			);
+			path = Overlay;
+			sourceTree = "<group>";
+		};
 		78EB38E01FE8BDA00064173F = {
 			isa = PBXGroup;
 			children = (
 				78EB38EB1FE8BDA00064173F /* Overly_D */,
 				78EB38EA1FE8BDA00064173F /* Products */,
+				10BA90C6D85EBB5BEC47A7C5 /* Pods */,
+				27FA672B65E5AD34B1E7A9AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,8 +118,11 @@
 		78EB38EB1FE8BDA00064173F /* Overly_D */ = {
 			isa = PBXGroup;
 			children = (
+				78379E811FE8F23600397B97 /* Tools */,
 				78EB38EC1FE8BDA10064173F /* AppDelegate.swift */,
 				78EB38EE1FE8BDA10064173F /* ViewController.swift */,
+				78379E7F1FE8ED1C00397B97 /* AViewController.swift */,
+				78379E831FE8F30D00397B97 /* BViewController.swift */,
 				78EB38F01FE8BDA10064173F /* Main.storyboard */,
 				78EB38F31FE8BDA10064173F /* Assets.xcassets */,
 				78EB38F51FE8BDA10064173F /* LaunchScreen.storyboard */,
@@ -71,9 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78EB38FB1FE8BDA10064173F /* Build configuration list for PBXNativeTarget "Overly_D" */;
 			buildPhases = (
+				266BF27F66D0BB34B7ABEAB0 /* [CP] Check Pods Manifest.lock */,
 				78EB38E51FE8BDA00064173F /* Sources */,
 				78EB38E61FE8BDA00064173F /* Frameworks */,
 				78EB38E71FE8BDA00064173F /* Resources */,
+				5A330F69831E12B42D1D7CDD /* [CP] Embed Pods Frameworks */,
+				CA20B69129DC259EC1452FA1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +201,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		266BF27F66D0BB34B7ABEAB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Overly_D-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A330F69831E12B42D1D7CDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Overly_D/Pods-Overly_D-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/OverlayController/OverlayController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OverlayController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Overly_D/Pods-Overly_D-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA20B69129DC259EC1452FA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Overly_D/Pods-Overly_D-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		78EB38E51FE8BDA00064173F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78379E7B1FE8EC0900397B97 /* UIView_Layout.swift in Sources */,
+				78379E751FE8EBE100397B97 /* SnailBannerView.swift in Sources */,
 				78EB38EF1FE8BDA10064173F /* ViewController.swift in Sources */,
+				78379E7C1FE8EC0900397B97 /* UIScreen_Extend.swift in Sources */,
+				78379E801FE8ED1C00397B97 /* AViewController.swift in Sources */,
+				78379E761FE8EBE100397B97 /* SnailSampleViews.swift in Sources */,
+				78379E7D1FE8EC0900397B97 /* CALayer_Layout.swift in Sources */,
+				78379E841FE8F30D00397B97 /* BViewController.swift in Sources */,
 				78EB38ED1FE8BDA10064173F /* AppDelegate.swift in Sources */,
+				78379E721FE8EB7800397B97 /* OverlayController.swift in Sources */,
+				78379E7E1FE8EC0900397B97 /* UIColor_Extend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +405,7 @@
 		};
 		78EB38FC1FE8BDA10064173F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 499A74A4C489E5B0401DC876 /* Pods-Overly_D.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -279,13 +413,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.day.Overly-D";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		78EB38FD1FE8BDA10064173F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C33D3AAA57413064E1EE2A /* Pods-Overly_D.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -293,7 +428,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.day.Overly-D";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
